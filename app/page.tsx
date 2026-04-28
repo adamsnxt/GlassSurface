@@ -1,5 +1,5 @@
 ﻿"use client";
-import { GlassSurface } from "./GlassSurface";
+import { GlassSurface } from "../src/components/atoms/GlassSurface";
 import { MdHome } from "react-icons/md";
 import { FaHeart } from "react-icons/fa6";
 import { FaListUl } from "react-icons/fa6";

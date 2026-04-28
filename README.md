@@ -53,11 +53,11 @@ import { GlassSurface } from "@/app/GlassSurface";
 
 ### Props
 
-| Prop | Type | Default | Description |
-|---|---|---|---|
-| `children` | `ReactNode` | — | Content rendered inside the glass |
-| `className` | `string` | `""` | Tailwind classes or custom CSS class applied to the wrapper. Controls size, layout, shape, cursor, etc. |
-| `onClick` | `() => void` | — | Click handler. `pointer-events: auto` is always set internally so it works even inside `pointer-events: none` parents. |
+| Prop        | Type         | Default | Description                                                                                                            |
+| ----------- | ------------ | ------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `children`  | `ReactNode`  | —       | Content rendered inside the glass                                                                                      |
+| `className` | `string`     | `""`    | Tailwind classes or custom CSS class applied to the wrapper. Controls size, layout, shape, cursor, etc.                |
+| `onClick`   | `() => void` | —       | Click handler. `pointer-events: auto` is always set internally so it works even inside `pointer-events: none` parents. |
 
 > **Note:** `p-4` and `rounded-3xl` are applied by default. Override with `className` if needed (e.g. `rounded-full`).
 
@@ -75,7 +75,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
 
 ```bash
 npm run dev
